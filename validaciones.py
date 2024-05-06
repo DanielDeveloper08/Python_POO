@@ -5,7 +5,7 @@ class Validaciones:
         texto_convertido = texto.upper()
         return texto_convertido
 
-    def validar_numeros(numero, minimo=None, maximo=None):
+    def validar_numeros(self,numero, minimo=None, maximo=None):
         es_valido = True
         mensaje_error = ""
 
